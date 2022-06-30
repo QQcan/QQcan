@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+a:link,:visited {
+    color: rgb(133, 133, 133);
+    text-decoration: none;
+}
+a:hover {
+    color: coral;
+}
+body {
+    background-color: rgb(250, 250, 250);
+}
+/* 版心 */
+.w {
+    width: 100%;
+    height: 794px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+/* 左边图片 */
+.box img {
+    width: 370px;
+    height: 794px;
+}
+.box {
+    width: 375px;
+}
+/* 右边 */
+.box2 {
+    width: 1150px;
+    height: 40px;
+    float: right;
+    margin-top: -790px;
+    position: relative;
+}
+.box2 img {
+    margin-top: 10px;
+    margin-left: 22px;
+    height: 40px;
+    width: 40px;
+}
+.box2 .xm {
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 12px;
+    font-size: 24px;
+    letter-spacing: 3px;
+}
+.box2 p {
+    float: right;
+    width: 80px;
+    height: 20px;
+    font-size: 13.5px;
+    margin-top: 20px;
+}
+.box2 p:nth-child(4) {
+    width: 0;
+    height: 12px;
+    margin-top: 24px;
+    margin-right: 20px;
+    border-left: 1px solid rgb(217, 215, 215);
+}
+.box2 p:nth-child(3) {
+    margin-right: 10px;
+}
+/* 登录框 */
+.log {
+    width: 450px;
+    height: 568px;
+    float: right;
+    margin-top: -700px;
+    margin-right: 330px;
+    position: relative;
+    background-color: #fff;
+}
+.log ul {
+    padding-left: 53px;
+}
+.log ul li {
+    float: left;
+    padding: 40px 0 0 10px;
+    width: 65px;
+    height: 45px;
+    border: 5px solid transparent;
+}
+.log ul li:hover {
+    float: left;
+    padding: 40px 0 0 10px;
+    width: 65px;
+    height: 45px;
+    border-bottom: 5px red solid;
+    border-radius: 5.6px;
+}
+.log ul li a {
+    font-size: 26px;
+    color: black;
+}
+.log input:nth-child(2) {
+    width: 345px;
+    height: 70px;
+    margin: 30px 0 0px 53px;
+    border-radius: 5px;
+    border: 5px rgb(145, 134, 134);
+    background-color: rgb(249, 249, 249);
+    font-size: 18px;
+
+}
+.log input:nth-child(3) {
+    width: 345px;
+    height: 70px;
+    margin: 20px 0 0px 53px;
+    border-radius: 5px;
+    border: 5px rgb(145, 134, 134);
+    background-color: rgb(249, 249, 249);
+    font-size: 18px;
+}
+.log input:nth-child(4) {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 303px;
+    left: 55px;
+}
+.log p {
+    padding: 15px 0 0 75px;
+    font-size: 14px;
+    color: rgb(107, 104, 104);
+}
+.black {
+    color:black;
+}
+/* 登录框 */
+.in {
+    width: 345px;
+    height: 60px;
+    margin:20px auto;
+    background-color: rgb(255, 168, 136);
+    border-radius: 5px;
+}
+.in:hover {
+    width: 345px;
+    height: 60px;
+    margin:20px auto;
+    background-color: coral;
+    border-radius: 5px;
+}
+.in .in_d a{
+    font-size: 20px;
+    color: white;
+    line-height: 56px;
+    padding-left: 150px;
+}
+.in_d_w {
+    padding-left: 55px;
+}
+.in_d_w a:nth-child(1) {
+    color: darkorange;
+}
+.in_d_w a:nth-child(2) {
+    padding-left: 170px;
+    color: darkorange;
+}
+.in_d_w_p {
+   margin: 0 0 0 110px;
+}
+.log img {
+    width: 350px;
+    height: 79px;
+    padding-left: 50px;
+}
+.MI {
+    padding-left: 730px;
+    margin-top: -30px;
+    font-size: 12px;
+    color: #9999;
+}
