@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.w {
+    margin: 0 auto;
+}
+.head img{
+    width: 140px;
+    height: 49px;
+    margin-left: 320px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+a:link,:visited{
+    text-decoration: none;
+    color: rgb(86, 84, 84);
+}
+.head a{
+    float: right;
+    padding-left: 20px;
+}
+.head ul li a:hover{
+   color: black;
+}
+.head ul {
+    margin-top: -36px;
+    margin-right: 305px;
+}
+/* 内容开始 */
+.banner {
+    background: url(../images/tian1.png) ;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    margin-top: 40px; 
+}
+.banner .font{
+    font-size: 54px;
+    color: #fff;
+    padding: 205px 0 0 505px;
+}
+.font-buttom{
+    width: 775px;
+    height: 125px;
+    padding: 40px 0 0 373px;
+}
+.font-buttom p{
+   color: #333;
+   font-size: 18px;
+   overflow: hidden;
+}
+/* 产品开始 */
+.box1 {
+    width: 100%;
+    height: 912px;
+    position: relative;
+    background-color: #fbf7ff;
+}
+.box1 h1 {
+    padding-left: 685px;
+}
+.box1 ul li {
+    float: left;
+    cursor: pointer;
+}
+.box1 .ul0 li img {
+    width: 495px;
+    height: 260px;
+    padding-left: 265px;
+    padding-top: 20px;
+}
+.ul1 {
+    position: absolute;
+    top: 80px;
+    left: 785px;
+    cursor: pointer;
+}
+.box1 .ul1 .img1 {
+    margin-top: -15px;
+} 
+.box1 .ul1 .img2 {
+    margin-top: 15px;
+}
+.box1 .ul1 img {
+    width: 495px;
+    height: 260px;
+}
+.box1 .ul2{
+    float: left;
+    padding-left: 290px;
+}
+.box1 .ul2 img {
+    width: 241px;
+    height: 224px;
+} 
+/* 合作伙伴 */
+.box2 {
+    width: 100%;
+    height: 497px;
+}
+.box2 h1 {
+    padding-left: 685px;
+    padding-top: 100px;
+}
+.box2 .ul3{
+    padding-left: 270px;
+}
+.box2 .ul3 li{
+    float: left;
+    padding-left: 10px;
+}
+.box2 .ul3 li img {
+    width: 190px;
+    height: 84px;
+}
+.box2 .ul4 li img {
+    width: 190px;
+    height: 84px;
+}
+.box2 ul {
+    padding-left: 270px;
+    padding-top: 100px;
+}
+.box2 ul li{
+    float: left;
+    padding-left: 10px;
+}
+/* 底部 */
+.box3 {
+    width: 100%;
+    height: 497px;
+    background-color: #1f222c;
+    position: relative;
+}
+.box3 p{
+    color: white;
+    font-size: 36px;
+    padding-left: 325px;
+    padding-top: 125px;
+}
+.box3 ul{
+    padding-left: 1000px;
+       position: absolute;
+       top: 155px;   
+}
+
+.box3 ul li{
+    float: left;
+    padding-left: 10px;
+    
+}
+.box3 li a{
+    color: white;
+    font-size: 12px;
+}
+.p1 {
+    font-size: 16px;
+    color: #ffff;
+    position: absolute;
+    top: 260px;
+}
+.box3 .p0 {
+    padding-top: 40px;
+}
+.box3 .p2 {
+    font-size: 16px;
+}
+.box4 ul li img {
+    width: 125px;
+    height: 130px;
+}
+.box4 ul {
+    position: absolute;
+    left: 1000px;
+   top: 2380px;
+}
+.box4 ul li {
+    float: left;
+    padding-left: 10px;
+}
